@@ -1,4 +1,4 @@
-package com.candybar.sample.applications;
+package com.cafreo.childish.applications;
 
 import androidx.annotation.NonNull;
 
@@ -6,6 +6,7 @@ import androidx.annotation.NonNull;
 //import com.onesignal.OneSignal;
 
 import candybar.lib.applications.CandyBarApplication;
+import candybar.lib.utils.JsonStructure;
 
 public class CandyBar extends CandyBarApplication {
 
@@ -30,6 +31,12 @@ public class CandyBar extends CandyBarApplication {
         configuration.setGenerateAppFilter(true);
         configuration.setGenerateAppMap(true);
         configuration.setGenerateThemeResources(true);
+        configuration.setWallpaperJsonStructure(
+                new JsonStructure.Builder(null)
+                        .name("name")
+                        .author("author")
+                        .url("url")
+                        .build());
 
         return configuration;
     }

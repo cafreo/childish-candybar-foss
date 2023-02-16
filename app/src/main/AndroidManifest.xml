@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:installLocation="auto"
-    package="com.candybar.sample">
+    package="com.cafreo.childish">
 
 
     <supports-screens
@@ -13,7 +13,7 @@
 
     <application
         tools:ignore="GoogleAppIndexingWarning,GoogleAppIndexingUrlError"
-        android:name=".applications.CandyBar"
+        android:name="com.cafreo.childish.applications.CandyBar"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:networkSecurityConfig="@xml/network_config"
@@ -24,7 +24,7 @@
         tools:targetApi="n">
 
         <activity
-            android:name=".activities.SplashActivity"
+            android:name="com.cafreo.childish.activities.SplashActivity"
             android:launchMode="singleTop"
             android:noHistory="true"
             android:screenOrientation="fullSensor"
@@ -40,7 +40,7 @@
         </activity>
 
         <activity
-            android:name=".activities.MainActivity"
+            android:name="com.cafreo.childish.activities.MainActivity"
             android:launchMode="singleTop"
             android:theme="@style/CandyBar.Theme.App"
             android:configChanges="uiMode|orientation|keyboardHidden|screenSize"
@@ -181,7 +181,7 @@
         </activity>
 
         <provider
-            android:name=".services.MuzeiService"
+            android:name="com.cafreo.childish.services.MuzeiService"
             android:authorities="${applicationId}.ArtProvider"
             android:label="@string/muzei_art_source_name"
             android:description="@string/muzei_art_source_desc"
@@ -195,7 +195,7 @@
                 android:value="@color/muzei_color" />
         </provider>
 
-        <receiver android:name=".services.ClockWidget" android:label="Clock Widget"
+        <receiver android:name="com.cafreo.childish.services.ClockWidget" android:label="Clock Widget"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />

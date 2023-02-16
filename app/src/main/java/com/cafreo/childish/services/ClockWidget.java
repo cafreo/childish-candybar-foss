@@ -1,4 +1,4 @@
-package com.candybar.sample.services;
+package com.cafreo.childish.services;
 
 import candybar.lib.services.CandyBarWidgetService;
 

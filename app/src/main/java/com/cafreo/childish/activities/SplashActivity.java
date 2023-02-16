@@ -1,4 +1,4 @@
-package com.candybar.sample.activities;
+package com.cafreo.childish.activities;
 
 import androidx.annotation.NonNull;
 
