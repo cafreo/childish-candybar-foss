@@ -4,11 +4,11 @@ android {
     compileSdkVersion rootProject.ext.CompileSdk
 
     defaultConfig {
-        applicationId 'com.candybar.sample'
+        applicationId 'com.cafreo.childish'
         minSdkVersion rootProject.ext.MinSdk
         targetSdkVersion rootProject.ext.TargetSdk
-        versionCode 1
-        versionName '1.0'
+        versionCode 300
+        versionName '3.0'
         multiDexEnabled true
 
         // Naming app bundles
