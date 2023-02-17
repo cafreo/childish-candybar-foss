@@ -81,12 +81,12 @@
     <!-- Link to your app's Rate and Review page.
         Leave this empty to disable the "Rate and Review" button.
         You can use special keyword `{{packageName}}`, `{{packageName}}` will be replaced with your app's package name -->
-    <string name="rate_and_review_link">https://play.google.com/store/apps/details?id=com.puppy.childish</string>
+    <string name="rate_and_review_link">https://play.google.com/store/apps/details?id=com.cafreo.childish</string>
 
     <!-- Link to your app's main page. It will be used when your user shares your app using "Share" button.
         Leave this empty to disable the "Share" button.
         You can use special keyword `{{packageName}}`, `{{packageName}}` will be replaced with your app's package name -->
-    <string name="share_link">https://play.google.com/store/apps/details?id=com.puppy.childish</string>
+    <string name="share_link">https://play.google.com/store/apps/details?id=com.cafreo.childish</string>
 
     <!-- Enable "Check for update" button.
         It needs the option "config_json" to be configured in order to work -->
@@ -95,7 +95,7 @@
     <!-- More apps at Google Play Store
         Link to Google Play Store developer page.
         If you don't want to show this, just leave this empty -->
-    <string name="google_play_dev">https://play.google.com/store/apps/developer?id=Puppy+Designs</string>
+    <string name="google_play_dev">https://play.google.com/store/apps/developer?id=cafreo</string>
 
     <!-- Enables the new flat and outline styled cards everywhere -->
     <bool name="use_flat_card">true</bool>
@@ -203,7 +203,7 @@
     <!-- Email to use when sending icon requests.
         Regular request email address will be used to send bug reports.
         You can leave "premium_request_email" empty to use the regular request's email to send premium icon requests. -->
-    <string name="regular_request_email">youremail@example.com</string>
+    <string name="regular_request_email">cafreo@proton.me</string>
     <string name="premium_request_email"></string>
 
     <!-- Icon request email subjects. Leave empty to use default Subject. -->
@@ -230,7 +230,7 @@
         Now when "Wallpaper" section is selected in your icon pack app's navigation drawer,
         your wallpaper app will be launched if it's installed. If it's not installed, then the Play Store page
         will be opened to install your wallpaper app. -->
-    <string name="wallpaper_json">https://raw.githubusercontent.com/whosthispuppy/walls/master/walls.json</string>
+    <string name="wallpaper_json">https://raw.githubusercontent.com/cafreo/walls/master/walls.json</string>
 
     <!-- Enable wallpaper downloading
         If disabled, your users will only be able to apply wallpapers from the dashboard.
@@ -290,11 +290,11 @@
         ex: <string-array name="about_social_links"></string-array>
         -->
     <string-array name="about_social_links">
+        <item>cafreo@proton.me</item>
         <item>https://tiktok.com/@cafreo</item>
         <item>https://instagram.com/cafreo</item>
         <item>https://github.com/cafreo</item>
-        <!--<item>your@email.com</item>
-        <item>https://behance.net/yourusername</item>
+        <!--<item>https://behance.net/yourusername</item>
         <item>https://dribbble.com/yourusername</item>
         <item>https://facebook.com/yourusername</item>
         <item>https://pinterest.com/yourusername</item>
@@ -311,7 +311,7 @@
     <!-- Privacy policy link.
         Leave empty to disable this.
         You can generate one from https://app-privacy-policy-generator.firebaseapp.com/ -->
-    <string name="privacy_policy_link"></string>
+    <string name="privacy_policy_link">https://github.com/cafreo/childish-candybar-foss/blob/master/privacy_policy.md</string>
 
     <!-- Terms and Conditions link.
         Leave empty to disable this.
